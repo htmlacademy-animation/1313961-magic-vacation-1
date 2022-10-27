@@ -145,19 +145,19 @@
     pointer-events: auto;
 
     li:nth-child(1) {
-        transition: opacity 0.15s ease-out 0.15s;
-        opacity: 1;
-    } 
+      transition: opacity 0.15s ease-out 0.15s;
+      opacity: 1;
+    }
 
     li:nth-child(2) {
-        transition: opacity 0.15s ease-out 0.3s;
-        opacity: 1;
-    } 
+      transition: opacity 0.15s ease-out 0.3s;
+      opacity: 1;
+    }
 
     li:nth-child(3) {
-        transition: opacity 0.15s ease-out 0.45s;
-        opacity: 1;
-    } 
+      transition: opacity 0.15s ease-out 0.45s;
+      opacity: 1;
+    }
   }
 
   li {
