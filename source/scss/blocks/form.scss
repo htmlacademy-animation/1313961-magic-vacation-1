@@ -100,7 +100,7 @@
     @media (max-width: $mobile) and (orientation: landscape) {
       width: calc(100% - 5rem);
     }
-    transition: opacity 0.3s ease-out, width 0.55s ease-out 0.15s;
+    transition: opacity $duration-300 ease-out, width $duration-550 ease-out $duration-150;
   }
 }
 

@@ -133,13 +133,13 @@
   .slider__item-title {
     opacity: 1;
     transform: translateY(0);
-    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    transition: transform $duration-500 ease-out, opacity $duration-500 ease-out;
   }
 
   .slider__item-text {
     opacity: 1;
     transform: translateY(0);
-    transition: transform 0.5s ease-out 0.15s, opacity 0.5s ease-out 0.15s;
+    transition: transform $duration-500 ease-out $duration-150, opacity $duration-500 $duration-150;
   }
 }
 
