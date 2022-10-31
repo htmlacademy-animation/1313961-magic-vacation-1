@@ -37,6 +37,7 @@
   color: $c-light;
   transform: translateX(-10%);
   opacity: 0;
+  transition: transform $duration-350 $bezier-80, opacity $duration-350 $bezier-80;
 
   @media (min-width: $stop-scaling) {
     top: -5px;
@@ -180,6 +181,7 @@
   line-height: 1.0418;
   color: $c-light;
   opacity: 0;
+  transition: opacity $duration-350 $bezier-80;
 
   @media (min-width: $stop-scaling) {
     font-size: 12px;
@@ -307,5 +309,16 @@
   @media (max-width: $mobile) and (orientation: landscape) {
     margin-left: 0;
     width: 100%;
+  }
+}
+
+.page-loaded {
+  .page-header__logo {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .page-header__menu {
+    opacity: 1;
   }
 }

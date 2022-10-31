@@ -37,7 +37,7 @@
     background-color: $c-light;
     border: 2px solid $c-light;
     z-index: -1;
-    transition: width $duration-300 ease-out, height $duration-300 ease-out;
+    transition: transform $duration-350 $bezier-80, width $duration-300 ease-out, height $duration-300 ease-out;
   }
 
   svg {
@@ -263,4 +263,16 @@
       }
     }
   }
+}
+
+.page-loaded {
+  .social-block__toggler {
+        &::before {
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        svg {
+            opacity: 1;
+        }
+    }
 }
